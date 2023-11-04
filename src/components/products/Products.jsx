@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect,useState } from 'react';
-import ProductCard from './productCard';
+import ProductCard from './ProductCard';
 
 export default function Products() {
   let [products,setProducts] = useState([]);
